@@ -2,7 +2,7 @@
 
 let peso = 150
 let altura = 1.85
-let imc = peso / (altura * altura)
+const imc = peso / (altura * altura)
 
 if (imc < 18.5){
     // Abaixo de 18,5: Baixo peso
